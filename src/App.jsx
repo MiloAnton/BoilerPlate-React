@@ -1,9 +1,14 @@
-import './App.scss';
+import style from "./App.module.scss";
+import Footer from "./components/footer/Footer";
+import Main from "./components/main/Main";
+import Topbar from "./components/topbar/Topbar";
 
 export default function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+    <main className={style["App"]}>
+      <Topbar />
+      <Main />
+      <Footer />
+    </main>
   );
 }

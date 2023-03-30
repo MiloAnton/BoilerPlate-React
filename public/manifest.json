@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Boiler Plate React",
+  "name": "A React Boiler Plate with sass",
   "icons": [
     {
       "src": "favicon.ico",
